@@ -21,7 +21,8 @@ This Private project template includes a sidebar navigation built with Bootstrap
   - Checkboxes
 ## Screen Capture
 1.Dashboard.
-![image](https://github.com/user-attachments/assets/9dbcfe9b-a1ba-4d63-865e-d647ec788bda)
+![image](https://github.com/user-attachments/assets/8f7a6186-2909-46e3-8217-cd9297ae1ff3)
+
 
 
 2.Login Page
