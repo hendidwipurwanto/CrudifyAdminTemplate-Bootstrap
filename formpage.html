@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Template</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="d-flex flex-column vh-100">
+        <div class="d-flex flex-grow-1">
+            <!-- Sidebar -->
+            <div class="bg-primary text-white vh-100 p-3" style="width: 250px;">
+                <h4>Admin Panel</h4>
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a href="#" class="nav-link text-white">Dashboard</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-white">Login Page</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-white">Register Page</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-white">Form Page</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-white">Table Page</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-white">Error 401</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-white">Error 403</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-white">Error 404</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link text-white">Error 500</a></li>
+                </ul>
+            </div>
+            
+            <!-- Content -->
+            <div class="p-4 flex-grow-1">
+                <h2>Form Page</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="textInput" class="form-label">Text Input</label>
+                        <input type="text" class="form-control" id="textInput" placeholder="Enter text">
+                    </div>
+                    <div class="mb-3">
+                        <label for="textArea" class="form-label">Text Area</label>
+                        <textarea class="form-control" id="textArea" rows="3" placeholder="Enter description"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Checkbox</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="check1">
+                            <label class="form-check-label" for="check1">Option 1</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="check2">
+                            <label class="form-check-label" for="check2">Option 2</label>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="dropdown" class="form-label">Dropdown</label>
+                        <select class="form-select" id="dropdown">
+                            <option selected>Select an option</option>
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Radio Buttons</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="radioOptions" id="radio1">
+                            <label class="form-check-label" for="radio1">Option A</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="radioOptions" id="radio2">
+                            <label class="form-check-label" for="radio2">Option B</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <footer class="bg-dark text-white text-center p-2">
+            <p>Copyright © Codify Admin 2025</p>
+        </footer>
+    </div>
+</body>
+</html>
