@@ -1,0 +1,4 @@
+.nav-link:hover {
+    background-color: #003366 !important; /* Warna biru tua */
+    border-radius: 5px;
+}
